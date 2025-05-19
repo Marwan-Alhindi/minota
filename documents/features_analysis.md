@@ -73,3 +73,6 @@ Addictive + Connection + Uncertain + Grows
 # Feature 17: Private/Public Note Choice
 
 # Feature 18: TODO List building
+
+# Feature 19: You can restructure the notes hireachy
+- Math -> Calculus -> Integration. The user will be able to change it to Math -> Meow -> Integration. And then Integration hireachy should be reflected as math.meow.integration or something like this
