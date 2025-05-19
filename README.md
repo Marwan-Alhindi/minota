@@ -20,35 +20,35 @@ Write & Retrieve
 - AI-Powered RAG: Generate new notes and fetch relevant content using per-library or scoped LLMs.
 - Quick Hierarchies: Instantly traverse, create, and nest new libraries and sub-notes through the hierarchy explorer.
 
-⸻
+---
 
 Structure & Templates
 - Consistent Schemas: Start each library with built-in templates (notes, habits, quests) that enforce uniform organization.
 - Autocomplete Hints: AI suggests titles, tags, and content structures as you begin a new note or task.
 - Auto-Apply Templates: New notes automatically inherit the right template for your subject or habit type.
 
-⸻
+---
 
 Explore & Navigate
 - 3D Village Walkthrough: Stroll through houses, rooms, and shelves to access your content in an immersive map.
 - Quick-Jump Controls: Teleport to any note, header, task, or habit via hotkeys or UI shortcuts.
 - Graph & Map View: Visualize your entire knowledge base or progress map as a node graph or village layout.
 
-⸻
+---
 
 Restructure
 - Seamless Refactor: Rename or move libraries, sub-notes, and tasks without breaking backlinks or AI contexts.
 - Drag-and-Drop: Reorganize entire branches of your hierarchy in one action, preserving streaks and XP history.
 - Section-Level Updates: Bulk-rename or relocate individual sections within notes using intuitive controls or regex tools.
 
-⸻
+---
 
 Villages (Vaults)
 - Multiple Worlds: Spin up separate “vaults” for work, study, or personal growth—each with its own village.
 - Cross-Village Libraries: Share or clone libraries between vaults to mix knowledge domains.
 - Publish & Collaborate: Export vault snapshots or invite others into your village with granular public/private settings.
 
-⸻
+---
 
 Share & Collaborate
 - Social Reactions: Like and comment on friends’ habit streaks, notes, and village decorations.
