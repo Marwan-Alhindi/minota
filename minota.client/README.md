@@ -103,25 +103,20 @@ export default function MyScene() {
 
 ## 🤝 Contributing
 
-To contribute, please follow these steps:
+To contribute to either the **client** or **server**, please follow these steps:
 
-* **New Feature or Bug**: If no issue exists, open an issue under one of the milestones:
+1. **New Feature or Bug:** If no issue exists, open an issue under one of the milestones:
 
-  * Application Development
-  * Model Development
-  * Infrastructure
+   * **Application Development** (frontend): `ad-<issue-number>`
+   * **Model Development** (AI): `md-<issue-number>`
+   * **Infrastructure** (backend): `in-<issue-number>`
+   * **Marketing & Appearance:** `ma-<issue-number>`
+2. **Existing Issue:** If an issue is already open, skip to branch creation.
+3. **Create a feature branch** named `<milestone-abbreviation>-<issue-number>` (e.g., `ad-10`, `md-5`, `in-3`, `ma-2`).
+4. **Commit your changes** and push the branch.
+5. **Open a Pull Request** against `main`, referencing the issue (e.g., “Closes #<issue-number>”).
 
-* **Existing Issue**: If an issue is already open, skip directly to branch creation.
-
-1. **Create a feature branch** named with the milestone abbreviation and issue number:
-
-   * Application Development: `ad-<issue-number>` (e.g. `ad-10`)
-   * Model Development: `md-<issue-number>` (e.g. `md-15`)
-   * Infrastructure: `in-<issue-number>` (e.g. `in-7`)
-2. **Commit your changes** to this branch and push to the repository.
-3. **Open a Pull Request** targeting the `main` branch, and reference the issue (e.g., “Closes #<issue-number>”).
-
-Please follow existing component and scene patterns, and add tests where applicable. Thank you for contributing to Minota!
+Please follow existing patterns, add tests where applicable, and include any relevant diagrams or specs from `/documents/`. Thank you for helping build Minota!
 
 ---
 
