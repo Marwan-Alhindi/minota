@@ -1,5 +1,7 @@
 # Minota
 
+![Minota Logo](documents/logo-white.png)
+
 Minota is a complete 3D second-brain knowledge ecosystem, where your ideas, tasks, habits, friends and AI companions all live together in an immersive digital village.
 
 We believe life’s goal is to optimize inputs to maximize impact. Inputs vary by person, but everyone needs a unified system that blends task management with knowledge organization—and does so in a way that leverages today’s engagement mechanics for our benefit, not distraction.
