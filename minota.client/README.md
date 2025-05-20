@@ -17,7 +17,7 @@ This is the **front‑end** application for **Minota**, built with React, Vite, 
 # from project root
 git clone <repo-url> minota
 cd minota/client
-npm install
+npm install      # or yarn install
 ```
 
 ### Available Scripts
@@ -45,17 +45,8 @@ minota/
 │   │   ├── components/    # Reusable UI components (buttons, panels)
 │   │   ├── scenes/        # R3F scene modules (Village, Houses, etc.)
 │   │   ├── styles/        # Tailwind entrypoint & global CSS (`index.css`)
-│   │   └── main.jsx       # Entry point and render logic
-│   ├── .gitignore         # Git ignore rules
-│   ├── eslint.config.js   # ESLint configuration
-│   ├── index.html         # HTML template
-│   ├── package.json       # Dependencies & scripts
-│   ├── package-lock.json  # Exact package versions
-│   ├── tailwind.config.js # Tailwind CSS configuration
-│   ├── postcss.config.js  # PostCSS plugins
-│   └── vite.config.js     # Vite configuration
-├── minota.server/         # Backend API and services
-│   ├── src/               # Server source code (FastAPI or Node.js)
+│   │   └── main.jsx       # Scene renderer and entry logic
+│   ├── .gitignore         # Git ignore rules               # Server source code (FastAPI or Node.js)
 │   ├── requirements.txt or package.json  # Server dependencies
 │   └── ...
 └── README.md              # Root project README
@@ -86,7 +77,7 @@ and imported once in `src/main.jsx`.
 
 1. Create a file under `src/scenes/`, e.g. `MyScene.jsx`.
 2. Export a React component wrapping your `<Canvas>` or meshes.
-3. Import and render it in `main.jsx` or via routing.
+3. Import and render it in `App.jsx` or via routing.
 
 ```jsx
 // src/scenes/MyScene.jsx
@@ -112,8 +103,22 @@ export default function MyScene() {
 
 ## 🤝 Contributing
 
-* Please open issues or PRs for bugs and features under the **Application Development** milestone.
-* Follow existing component patterns and add relevant unit tests if needed.
+To contribute, please follow these steps:
+
+1. **Open an issue** in GitHub under the appropriate milestone:
+
+   * Application Development
+   * Model Development
+   * Infrastructure
+2. **Create a feature branch** using the issue number and milestone abbreviation:
+
+   * Application Development: `ad-<issue-number>` (e.g. `ad-10`)
+   * Model Development: `md-<issue-number>` (e.g. `md-15`)
+   * Infrastructure: `in-<issue-number>` (e.g. `in-7`)
+3. **Commit your changes** to this branch and push to the repository.
+4. **Open a Pull Request** targeting the `main` branch, and reference the issue (e.g., “Closes #10”).
+
+Please follow existing component and scene patterns, and add tests where applicable. Thank you for contributing to Minota!
 
 ---
 
