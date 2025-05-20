@@ -105,18 +105,21 @@ export default function MyScene() {
 
 To contribute, please follow these steps:
 
-1. **Open an issue** in GitHub under the appropriate milestone:
+* **New Feature or Bug**: If no issue exists, open an issue under one of the milestones:
 
-   * Application Development
-   * Model Development
-   * Infrastructure
-2. **Create a feature branch** using the issue number and milestone abbreviation:
+  * Application Development
+  * Model Development
+  * Infrastructure
+
+* **Existing Issue**: If an issue is already open, skip directly to branch creation.
+
+1. **Create a feature branch** named with the milestone abbreviation and issue number:
 
    * Application Development: `ad-<issue-number>` (e.g. `ad-10`)
    * Model Development: `md-<issue-number>` (e.g. `md-15`)
    * Infrastructure: `in-<issue-number>` (e.g. `in-7`)
-3. **Commit your changes** to this branch and push to the repository.
-4. **Open a Pull Request** targeting the `main` branch, and reference the issue (e.g., “Closes #10”).
+2. **Commit your changes** to this branch and push to the repository.
+3. **Open a Pull Request** targeting the `main` branch, and reference the issue (e.g., “Closes #<issue-number>”).
 
 Please follow existing component and scene patterns, and add tests where applicable. Thank you for contributing to Minota!
 
@@ -125,3 +128,6 @@ Please follow existing component and scene patterns, and add tests where applica
 ## ⚖️ License
 
 This client code is licensed under the [MIT License](LICENSE).
+
+
+
