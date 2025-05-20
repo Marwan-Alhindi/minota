@@ -117,7 +117,7 @@ and imported once in `src/main.jsx`.
 
 ---
 
-## 📜 Available Scripts
+## Available Scripts
 
 In `minota.client`:
 
