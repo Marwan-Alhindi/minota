@@ -54,7 +54,7 @@ We believe life’s goal is to optimize inputs to maximize impact. Inputs vary b
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -73,7 +73,7 @@ npm install      # or yarn install
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```plaintext
 minota/
@@ -97,7 +97,7 @@ minota/
 
 ---
 
-## 🛠️ Technologies & Configuration
+## Technologies & Configuration
 
 * **React + Vite** for fast frontend dev.
 * **React Three Fiber** and **Drei** for 3D rendering.
@@ -129,7 +129,7 @@ npm run preview   # Preview production build locally
 
 ---
 
-## 🛰️ Adding a New 3D Scene
+## Adding a New 3D Scene
 
 1. Create a file in `src/scenes/`, e.g. `MyScene.jsx`.
 2. Export a functional component that returns a `<Canvas>`.
@@ -148,7 +148,7 @@ export default function MyScene() {
 
 ---
 
-## 🎨 Styling & Theming
+## Styling & Theming
 
 * Styling is fully handled via Tailwind CSS.
 * Edit `tailwind.config.js` to customize your design system.
@@ -156,7 +156,7 @@ export default function MyScene() {
 
 ---
 
-## 🖥️ Running the Server
+## Running the Server
 
 ### Backend Setup (FastAPI)
 
