@@ -137,7 +137,7 @@ npm run preview   # Preview production build locally
 
 1. Create a file in `src/scenes/`, e.g. `MyScene.jsx`.
 2. Export a functional component that returns a `<Canvas>`.
-3. Import it where needed (e.g., `App.jsx`).
+3. Import it where needed (e.g., `main.jsx`).
 
 ```jsx
 import { Canvas } from '@react-three/fiber';
