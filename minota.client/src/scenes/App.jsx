@@ -1,20 +1,34 @@
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Stats } from '@react-three/drei';
+// App.jsx
+import { useFrame } from '@react-three/fiber';
+import { useRef } from 'react';
 
 export default function App() {
+  const groupRef = useRef();
+
+  useFrame((state, delta) => {
+    if (groupRef.current) {
+      groupRef.current.rotation.y += delta;
+    }
+  });
+
   return (
-    <div className="w-full h-screen">
-      <Canvas>
-        {/* Example: a spinning cube */}
-        <ambientLight intensity={0.5} />
-        <directionalLight position={[2, 5, 2]} />
-        <mesh rotation={[45, 45, 0]}>
-          <boxGeometry args={[1, 1, 1]} />
-          <meshStandardMaterial color="orange" />
+    <>
+      <group ref={groupRef}>
+        <mesh position={[2, 0, 0]}>
+          <sphereGeometry />
+          <meshBasicMaterial color="red" />
         </mesh>
-        <OrbitControls />
-        <Stats />
-      </Canvas>
-    </div>
+
+        <mesh position={[-2, 0, 0]}>
+          <boxGeometry />
+          <meshBasicMaterial color="orange" />
+        </mesh>
+      </group>
+
+      <mesh position={[0, -1, -3]} rotation-x={-Math.PI * 0.5} scale={10}>
+        <planeGeometry />
+        <meshBasicMaterial color="yellow" />
+      </mesh>
+    </>
   );
 }
