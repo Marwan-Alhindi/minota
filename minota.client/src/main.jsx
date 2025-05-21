@@ -8,7 +8,7 @@ import { Canvas } from '@react-three/fiber'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <div className='h-screen w-screen'>
-      <Canvas camera={{ position: [0, 3, 6] }}>
+      <Canvas camera={{ position: [-10, 3, 0] }}>
         <App />
       </Canvas>
     </div>
