@@ -2,12 +2,15 @@
 import { useThree, useFrame, extend } from '@react-three/fiber';
 import { useRef, useState } from 'react';
 import { OrbitControls, Html } from '@react-three/drei';
+import Chat from '../components/Chat';
 
 
 export default function App() {
   const groupRef = useRef()
   const squareRef = useRef()
   const [value, setValue] = useState("");
+  const sphereRef = useRef();
+
 
   useFrame((x,delta) => {
     groupRef.current.rotation.y += delta
@@ -22,9 +25,9 @@ export default function App() {
 
       <directionalLight position={[0, 10, 0]} intensity={1} />
       <ambientLight intensity={0.5} />
-      <OrbitControls args={[camera, gl.domElement]} />
+      <OrbitControls args={[camera, gl.domElement]} makeDefault />
       <group ref={groupRef}>
-        <mesh position={[2, 0, 0]}>
+        <mesh ref={sphereRef} position={[2, 0, 0]}>
           <sphereGeometry />
           <meshStandardMaterial color="red" />
         </mesh>
@@ -42,21 +45,7 @@ export default function App() {
         <meshStandardMaterial color="yellow" />
       </mesh>
 
-
-      <Html position={[0, 1.5, 0]}>
-        <input
-          type="text"
-          value={value}
-          onChange={(e) => setValue(e.target.value)}
-          placeholder="Type here"
-          style={{
-            padding: '8px',
-            fontSize: '1rem',
-            borderRadius: '4px',
-            border: '1px solid #ccc',
-          }}
-        />
-      </Html>
+      <Chat occluders={[sphereRef]} />
     </>
   );
 }
