@@ -1,12 +1,13 @@
 // App.jsx
 import { useThree, useFrame, extend } from '@react-three/fiber';
-import { useRef } from 'react';
-import { OrbitControls } from '@react-three/drei';
+import { useRef, useState } from 'react';
+import { OrbitControls, Html } from '@react-three/drei';
 
 
 export default function App() {
   const groupRef = useRef()
   const squareRef = useRef()
+  const [value, setValue] = useState("");
 
   useFrame((x,delta) => {
     groupRef.current.rotation.y += delta
@@ -34,10 +35,28 @@ export default function App() {
         </mesh>
       </group>
 
+
+
       <mesh position={[0, -1, 0]} rotation-x={-Math.PI * 0.5} scale={10}>
         <planeGeometry />
         <meshStandardMaterial color="yellow" />
       </mesh>
+
+
+      <Html position={[0, 1.5, 0]}>
+        <input
+          type="text"
+          value={value}
+          onChange={(e) => setValue(e.target.value)}
+          placeholder="Type here"
+          style={{
+            padding: '8px',
+            fontSize: '1rem',
+            borderRadius: '4px',
+            border: '1px solid #ccc',
+          }}
+        />
+      </Html>
     </>
   );
 }
