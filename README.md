@@ -1,4 +1,4 @@
-# Minota
+# Minota: For those who envision a more meaningful web.
 
 <p align="center">
   <img src="documents/logo-white.png" alt="Minota Logo" width="150"/>
@@ -6,19 +6,31 @@
 
 Minota is a complete 3D second-brain knowledge ecosystem, where your ideas, tasks, habits, friends and AI companions all live together in an immersive digital village.
 
-We believe life’s goal is to optimize inputs to maximize impact. Inputs vary by person, but everyone needs a unified system that blends task management with knowledge organization—and does so in a way that leverages today’s engagement mechanics for our benefit, not distraction.
+Minota is the 3D world that people want to escape to—away from the harm of the current internet. It's a place where you enjoy focusing on your growth and the growth of others. No addictive content, fake connections or shallow interactions. We only focus on making your growth journey addictive by using the same techniques most of today’s internet apps exploit—for good.
+
+Minota exists for those who struggle with how fragmented, toxic, and distracting the modern internet has become. It’s built for people who crave meaningful use of their time—focused on knowledge, personal growth, and effective, purposeful collaboration. Every mechanic is built to help you learn better, stay consistent, and support others on the same path.
+
+We believe the modern internet is dominated by an attention economy, where platforms are optimized to extract time and data rather than contribute to your growth. Most apps are not designed to maximize your potential, but to maximize revenue—often at the cost of your focus and well-being. Minota takes a stand against this trend, designing every feature to serve your development, not distract from it.
 
 # Why: The Four Pillars of Minota
 
 1. Addictive: Modern digital products—from mobile games with time-gated mechanics to content platforms with autoplay—use endless engagement hooks that drive mindless repeat use rather than purposeful action (for instance, social media’s infinite feeds and random “likes”). Minota repurposes these same hooks by tying notifications, streaks, and rewards to real tasks and learning goals, so every check-in directly advances your progress. Each check-in happens within your personalized world, helping your own character grow—creating a deep sense of personal connection and ownership.
 
-2. Connection: Many apps offer shallow gestures—likes, follows, or basic chat—that create a veneer of community without fostering real collaboration or support (e.g., surface-level social media interactions). Minota builds genuine connection through shared village visits, co-op quests, and contextual feedback on habits and notes, turning social features into mutual motivation and collective growth.
+2. Connection: Many apps offer shallow gestures—likes, follows, or basic chat—that create a veneer of community without fostering real collaboration or support (e.g., surface-level social media interactions). Minota builds genuine connection through shared village visits, co-op quests, and contextual feedback on habits, notes, and knowledge, turning social features into mutual motivation and collective growth.
 
 3. Uncertainty: Social platforms exploit our FOMO with unpredictable notifications—new comments, trending stories, “someone liked your post”—keeping us hooked on the next surprise rather than substance. Minota harnesses that same suspense by turning new comments, trending stories, and likes into meaningful feedback—on your notes, habit streaks, world, and character—making every surprise feel personal and purposeful.
 
 4. Growth: Generic progress bars and hollow XP grinds in many apps and games give the illusion of advancement without reflecting true skill gains or knowledge mastery in real life. Minota awards XP, levels, and unlocks only for genuine habit consistency, note mastery, and task completion—and visually expands your village to mirror your real-world progress.
 
-# How: The features of Minota
+# How: The Features of Minota
+
+Minota offers the following core experiences:
+
+1. **A Gamified Intelligent Second Brain System** – Your notes and learning happen inside a living game world. Interactions are immersive and addictive. You earn XP, rewards, and rank as you master topics. The more you learn, the more your world grows. And it's intelligent—AI is integrated into every part of the system to guide, test, and support your learning.
+
+2. **Hooked on What Matters** – Minota uses the same feedback loops as social media—but applies them to real progress. People can comment on your habit streaks, your progress, and your growing knowledge—not cat videos or clickbait. All interactions are designed to reinforce growth and support.
+
+3. **A Real Social Dimension** – You can walk through your friends’ villages and they can walk through yours. See their learning, their habits, and their growth—making motivation visual, shared, and inspiring.
 
 ### Write & Retrieve
 
